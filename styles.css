@@ -1,0 +1,48 @@
+* {
+    scroll-behavior: smooth;
+    background-color:rgba(141, 188, 190, 0.473);
+}
+body {
+    font-size: large;
+    font-weight: bold;
+}
+#navbar {
+    position: fixed;
+    left: 0;
+    padding: 20px;
+    width: 20em;
+    height: 130px;
+    margin-bottom: 20px;
+}
+#navbar header {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+#navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 26px;
+    color:chocolate;
+    font-size: 20px;
+    font-weight: bold;
+}
+#main-doc {
+    font-size: 20px;
+    margin-left: 20em;
+    padding: 15px;
+}
+#main-doc header {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#main-doc section {
+    margin: 40px;
+}
+strong {
+    color:firebrick;
+}

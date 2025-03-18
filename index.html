@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>API-Documentation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>API DOCUMENTATION TOPICE'S</header>
+        <ul>
+          <li><a class="nav-link" href="#introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#what-you-should-already-know">What you should already know</a></li>
+          <li><a class="nav-link" href="#understanding-apis">Understanding APIs</a></li>
+          <li><a class="nav-link" href="#authentication-and-security">Authentication and Security</a></li>
+          <li><a class="nav-link" href="#http-methods-and-how-they-work">HTTP Methods and How They Work</a></li>
+          <li><a class="nav-link" href="#understanding-api-responses">Understanding API Responses</a></li>
+          <li><a class="nav-link" href="#best-practice-when-using-apis">Best Practice When Using AIPs</a></li>
+          <li><a class="nav-link" href="#faqs">FAQs(Frequently Asked Questions)</a></li>
+          <li><a class="nav-link" href="#conclusion-and-next-steps">Conclusion and Next steps</a></li>
+        </ul>  
+      </nav>
+      <section class="main-section" id="introduction" class="nav-link">
+        <header>Introduction</header>
+          <p>Welcome to the <strong>API Technical Documentation.</strong> This guide provides an overview of how to interact with APIs efficiently. <br>
+            Whether you're a bigginner or an experienced developer, <br>
+            this documentation will help you understand API concepts, authentication metods, and best practices.</p>
+          <strong><code>GET /books</code></strong>
+          <strong><code>GET /books/:id</code></strong>
+          <strong><code>POST /books</code></strong>
+          <strong><code>DELETE /books/:id</code></strong>
+          <strong><code>PATCH /books/:id</code></strong>
+          </section>
+      <section class="main-section" id="what-you-should-already-know" class="nav-link">
+        <header>What you should already Know</header>
+          <p>
+            Before diving into this documentation, you should have a basic knowledge or understanding of:
+            <ul>
+              <li>How the web works (request and responses).</li>
+              <li>HTTP methods (GET,POST,PUT,DELETE).</li>
+              <li>JSON format for data exchange.</li>
+              <li>How to use an API testing tools like postman</li>
+            </ul>
+          </p>
+          <p>The <strong>GET</strong> endpoint retrieves a list of books.</p>
+          <p>The <strong>POST</strong> endpoint create a new book.</p>
+          <p>The <strong>DELETE</strong> endpoint delete a book by ID</p>
+          <p>The <strong>API uses JSON</strong> format for request and respondes.</p>
+      </section>
+      <section class="main-section" id="understanding-apis" class="nav-link">
+        <header>Understanding APIs</header>
+          <p>An API (Application Programming Interface) allows application to communicate with each other. APIs define a set of rules for homw requests should be made and how data is exchanged. <br> For example, when you log into a website using Google, an API is responsible for handling that request.</p>
+          <p>Tips to Understanding APIs
+            <ul>
+              <li>
+                Start with the basics: <br>Understanding what an APIs, how it works, and its purpose.</li>
+                <li>Know the types of APIs: <br> Familiarize yourself with diffrent types of APIs, such as RESTful APIs, GraphQL APIs, and SOAP APIs.</li>
+                <li>Understand API endpoints: <br> Learn about API endpoints, including the diffent HTTP methods (GET,POST,PUT,DELETE,ect.) and how to use them.</li>
+                <li>Learn about API keys and authentication: <br> Understand how API keys and authentication work, including OAuth,JWT,and other authentication methods.</li>
+                <li>Familiaze yourself with API documentation: <br> Learn how to read and understand Api documentation, including API references, tutorials, and code samples.</li>
+                <li>Practice using APIs and stay up-to-date: <br>Start building project that use APIs to gain hands-on experence and understanding how API work in real-world scenarios. Follow industry, blogs, and news outlet to stay informed about the latest API trends, best practices, and technologies.</li>
+            </ul>
+          </p>
+      </section>
+      <section class="main-section" id="authentication-and-security" class="nav-link">
+        <header>Authentication and Security</header>
+          <p>Most APIs require authentication to protect data. This is usually done through API keys or tokens.</p>
+          <ul>
+            <li>API key: A unique key provided to each user to access the API.</li>
+            <il>OAuth: A more secure authentication method used by services like Google and Facebook.</li>
+            <p>Security Tips: 
+              <li>Never share your APi key.</li>
+              <li>Store your API keys securely (e.g in environment variables).</li>
+            </p>
+          </ul>
+      </section>
+      <section class="main-section" id="http-methods-and-how-they-work" class="nav-link">
+        <header>HTTP Methods and How They Work</header>
+          <p>API rely on HTTP methods to perform different actions:
+            <ul>
+              <li>GET - Retrieves data (e.g., get a user list).</li>
+              <li>POST -Send data (e.g., Create a new user)</li>
+              <li>PUT - Updates existing data (e.g., Update user info).</li>
+              <li>DELETE - Remove data (e.g., delete a user).</li>
+            </ul>
+          </p>
+      </section>
+      <section class="main-section" id="understanding-api-responses" class="nav-link">
+        <header>Understanding API Responses</header>
+          <p>APIs return responses in JSON format. <br>
+          common responses Codes: <br>
+          <ul>
+            <li>200 0k - Request was successful.</li>
+            <li>201 Created - New resource was created.</li>
+            <li>400 Bad request - There was an error with your request.</li>
+            <li>401 Unauthorized - Invalid API key.</li>
+            <li>500 Internal server Error - The server encountered an issue.
+          </ul>
+          </p>
+      </section>
+      <section class="main-section" id="best-practice-when-using-apis" class="nav-link">
+        <header>Best Practice When Using AIPs</header>
+        <p>Give practices advices for using APIs efficiently</p>
+        <ul>
+          <li>Always check the API documentation</li>
+          <li>Use API keys securely and avoid exposing them in public code</li>
+          <li>Respect API rate limits to prevent being blocked</li>
+          <li>Handle errors properly to avoid app crashes</li>
+        </ul>
+      </section>
+      <section class="main-section" id="faqs" class="nav-link">
+        <header>FAQs(Frequently Asked Questions)</header>
+        <p>
+          <ul>
+            <li>Questions asked: How do i get the API key?</li>
+            <br>
+            <li>Answers: Sign on the API provider's website and generate a key from your dashboard</li>
+            <br>
+            <li>Questions asked: Why am I getting a 401 errors?</li>
+            <li>Answers: This is usally means your API key is missing or incorrect. Double-check it and try again</li>
+          </ul>
+        </p>
+      </section>
+      <section class="main-section" id="conclusion-and-next-steps" class="nav-link">
+        <header>Conclusion and Next Steps</header>
+        <p>Congratulation! You now have a basic understanding of how <strong>API</strong> work. <br>
+        To deepen your knowledge, try making real API requests using postman, build a small project, or explore API like <br>
+      OpenWeather, Github, or Google Maps.</p>
+      </section>
+    </main>
+  </body>
+</html>
